@@ -12,7 +12,8 @@ expansion of standard markdown syntax, called `GitHub Flavored Markdown`, Acrony
 ##Contents
 * [Horizontal Rule](#Horizontal Rule)
 * [Headers](#Headers)
-
+* [Text](#Text)
+	* [Highlighting](#Highlighting)
 
 
 Horizontal Rule
@@ -40,13 +41,18 @@ For example:
 
 # This is an H1
 ## This is an H2
+### This is an H3
+#### This is an H4
+##### This is an H5
 ###### This is an H6
 
-Optionally, you may “close” atx-style headers. This is purely cosmetic — you can use this if you think it looks better.
 
-The closing hashes don’t even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.) :
+Text
+--------
+###Highlighting
+```
+`Linux` `Github`
+```
+Effect: `Linux` `Github`
 
-# This is an H1 #
-## This is an H2 ##
-### This is an H3 ######
 
