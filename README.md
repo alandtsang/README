@@ -5,3 +5,19 @@ expansion of standard markdown syntax, called `GitHub Flavored Markdown`, Acrony
 `GFM`.
 
 ****
+
+======
+
+
+##Contents
+*[Horizontal Rule](#Horizontal Rule)
+
+
+
+Horizontal Rule
+--------
+You can produce a horizontal rule tag by placing three or more hyphens, asterisks, or underscores on a line by themselves. 
+***
+---
+___
+
