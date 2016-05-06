@@ -16,6 +16,9 @@ expansion of standard markdown syntax, called `GitHub Flavored Markdown`, acrony
 	* [Highlighting](#Highlighting)
 	* [Line Breaks](#Line Breaks)
 * [Images](#Images)
+* [Links](#Links)
+	* [Links to external URL](#Links to external URL)
+	* [Link to the URL in this repository](#Link to the URL in this repository)
 
 
 Horizontal Rule
@@ -60,7 +63,14 @@ Effect: `Linux` `Github`
 
 Line Breaks
 --------
-Can't newline directly, you can fill two spaces in the back on a line of text, so the next line of text will be a new line.
+Can't newline directly, you can fill two spaces in the back on a line of text, so the next line of text will be a new line.  
+For example:
+```
+Live well, love lots, and laugh often.  
+Keep trying no matter how hard it seems, it will get easier.
+```
+>Live well, love lots, and laugh often.  
+Keep trying no matter how hard it seems, it will get easier.
 
 
 Images
@@ -76,7 +86,23 @@ Image syntax looks like this:
 
 For example:
 ```
-![alt github-logo](https://github.com/alandtsang/README/images/github-logo.png "Optional title")
+![github-logo](https://github.com/alandtsang/README/blob/master/images/github-logo.png "Optional title")
 ```
-![alt github-logo](https://github.com/alandtsang/README/images/github-logo.png "Optional title")
+![github-logo](https://github.com/alandtsang/README/blob/master/images/github-logo.png "Optional title")
+
+
+Links
+--------
+###Links to external URL
+|Syntax|Effect|
+|----|----
+|`[My Github][alandtsang Github]`|[My Github][alandtsang Github]
+|`[alandtsang Github]:https://github.com/alandtsang`|
+
+The first bracket is a identifier, and the second bracket is actual URL. `[identifier][URL]`
+
+###Link to the URL in this repository
+|Syntax|Effect|
+|----|----
+|`[Images](/Images)`|[Images](/Images)
 
