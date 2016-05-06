@@ -20,6 +20,7 @@ expansion of standard markdown syntax, called `GitHub Flavored Markdown`, acrony
 	* [Links to external URL](#Links to external URL)
 	* [Link to the URL in this repository](#Link to the URL in this repository)
 * [Lists](#Lists)
+* [Code Highlighting](#Code Highlighting)
 
 
 Horizontal Rule
@@ -136,6 +137,20 @@ Ordered lists use numbers followed by periods:
 1. Elephant
 2. Tiger
 3. Monkey
+
+
+Code Highlighting
+--------
+Behind three backquotes is the name of the programming language.  
+For example:
+```c
+int main(int argc, char **argv)	//C
+```
+```python
+if __name__ == '__main__':	//python
+    function()
+```
+
 
 ------------------------------------
 [alandtsang Github]:https://github.com/alandtsang "Aland's Github"
