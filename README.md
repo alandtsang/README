@@ -15,6 +15,7 @@ expansion of standard markdown syntax, called `GitHub Flavored Markdown`, acrony
 * [Text](#Text)
 	* [Highlighting](#Highlighting)
 	* [Line Breaks](#Line Breaks)
+* [Images](#Images)
 
 
 Horizontal Rule
@@ -29,7 +30,7 @@ Headers
 --------
 Markdown supports two styles of headers, Setext and atx.
 
-Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). 
+Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers).  
 For example:
 
 This is an H1
@@ -60,4 +61,22 @@ Effect: `Linux` `Github`
 Line Breaks
 --------
 Can't newline directly, you can fill two spaces in the back on a line of text, so the next line of text will be a new line.
+
+
+Images
+------
+Image syntax looks like this:  
+```
+![Alt text](/path/to/img.jpg "Optional title")
+```
+- An exclamation mark: !
+- Alt: text for the image
+- The URL or path of the image
+- An optional title attribute enclosed in double or single quotes.
+
+For example:
+```
+![alt github-logo](https://github.com/alandtsang/README/images/github-logo.png "Optional title")
+```
+![alt github-logo](https://github.com/alandtsang/README/images/github-logo.png "Optional title")
 
