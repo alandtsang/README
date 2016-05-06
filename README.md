@@ -21,6 +21,7 @@ expansion of standard markdown syntax, called `GitHub Flavored Markdown`, acrony
 	* [Link to the URL in this repository](#Link to the URL in this repository)
 * [Lists](#Lists)
 * [Code Highlighting](#Code Highlighting)
+* [Form](#Form)
 
 
 Horizontal Rule
@@ -115,23 +116,23 @@ Markdown supports ordered (numbered) and unordered (bulleted) lists.
 
 Unordered lists use asterisks, pluses, and hyphens — interchangably — as list
 markers:
-
+```
 * Red
 * Green
 * Blue
-
+```
 is equivalent to:
-
+```
 + Red
 + Green
 + Blue
-
+```
 and:
-
+```
 - Red
 - Green
 - Blue
-
+```
 Ordered lists use numbers followed by periods:
 
 1. Elephant
@@ -150,6 +151,13 @@ int main(int argc, char **argv)	//C
 if __name__ == '__main__':	//python
     function()
 ```
+
+Form
+--------
+|Header1|Header2|
+|-------|-------|
+|Cell1|Cell2|
+|Cell3|Cell4|
 
 
 ------------------------------------
