@@ -19,6 +19,7 @@ expansion of standard markdown syntax, called `GitHub Flavored Markdown`, acrony
 * [Links](#Links)
 	* [Links to external URL](#Links to external URL)
 	* [Link to the URL in this repository](#Link to the URL in this repository)
+* [Lists](#Lists)
 
 
 Horizontal Rule
@@ -104,5 +105,37 @@ The first bracket is a identifier, and the second bracket is actual URL. `[ident
 ###Link to the URL in this repository
 |Syntax|Effect|
 |----|----
-|`[Images](/Images)`|[Images](/Images)
+|`[images](/images)`|[images](/images)
 
+
+Lists
+--------
+Markdown supports ordered (numbered) and unordered (bulleted) lists.
+
+Unordered lists use asterisks, pluses, and hyphens — interchangably — as list
+markers:
+
+* Red
+* Green
+* Blue
+
+is equivalent to:
+
++ Red
++ Green
++ Blue
+
+and:
+
+- Red
+- Green
+- Blue
+
+Ordered lists use numbers followed by periods:
+
+1. Elephant
+2. Tiger
+3. Monkey
+
+------------------------------------
+[alandtsang Github]:https://github.com/alandtsang "Aland's Github"
